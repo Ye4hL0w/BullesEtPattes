@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulles & Pattes - Salon de toilettage automatisé</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="Bulles & Pattes Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link active">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apropos" class="nav-link">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tarifs" class="nav-link">Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#produits" class="nav-link">Produits</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#horaires" class="nav-link">Horaires</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Bulles & Pattes</span>
+                    <span class="subtitle">Toilettage automatisé pour votre compagnon</span>
+                </h1>
+                <p class="hero-description">
+                    Un service pratique et accessible à tous les amoureux des chiens. 
+                    Passionnées par le bien-être animal, nous mettons tout en œuvre pour que vous puissiez 
+                    chouchouter votre compagnon à quatre pattes en toute simplicité.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-paw"></i>
+                        Découvrir nos services
+                    </a>
+                    <a href="#tarifs" class="btn btn-secondary">
+                        <i class="fas fa-euro-sign"></i>
+                        Voir les tarifs
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/salon.png" alt="Salon Bulles & Pattes" class="salon-image">
+                <div class="floating-elements">
+                    <div class="paw-print paw-1"><i class="fas fa-paw"></i></div>
+                    <div class="paw-print paw-2"><i class="fas fa-paw"></i></div>
+                    <div class="paw-print paw-3"><i class="fas fa-paw"></i></div>
+                    <div class="bubble bubble-1"></div>
+                    <div class="bubble bubble-2"></div>
+                    <div class="bubble bubble-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="apropos" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À Propos de Nous</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Notre Mission</h3>
+                    <p>
+                        Nous avons créé <strong>BULLES & PATTES</strong> pour offrir un service pratique et accessible 
+                        à tous les amoureux des chiens. Passionnées par le bien-être animal, nous mettons tout en œuvre 
+                        pour que vous puissiez chouchouter votre compagnon à quatre pattes en toute simplicité.
+                    </p>
+                    <p>
+                        Parce que chaque chien mérite le meilleur... et chaque propriétaire aussi ! ✨
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Bien-être animal prioritaire</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Service rapide et efficace</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Équipements modernes et sûrs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/a-propos.png" alt="À propos de Bulles & Pattes">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Des installations modernes pour le confort de votre chien</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h3>Douches équipées</h3>
+                    <p>Douches équipées pour toutes les tailles de chiens avec système automatisé</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Coin séchage</h3>
+                    <p>Un coin séchage avec souffleurs puissants pour un séchage rapide et efficace</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Matériel professionnel</h3>
+                    <p>Tout le matériel nécessaire : brosses, petits ciseaux, serviettes, etc.</p>
+                </div>
+            </div>
+            <div class="service-note">
+                <div class="note-content">
+                    <i class="fas fa-info-circle"></i>
+                    <div>
+                        <h4>Pas de panique !</h4>
+                        <p>En cas d'oubli de votre shampoing, nous pouvons vous en fournir sur place. 🐾</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tarifs -->
+    <section id="tarifs" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Tarifs</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Prestations de services - Utilisation des machines de toilettage</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Forfait Express</h3>
+                        <div class="price">5,00€</div>
+                        <div class="duration">5 minutes</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Rinçage rapide</li>
+                            <li><i class="fas fa-check"></i> Séchage de base</li>
+                            <li><i class="fas fa-check"></i> Parfait pour un nettoyage léger</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Plus populaire</div>
+                    <div class="pricing-header">
+                        <h3>Forfait Standard</h3>
+                        <div class="price">10,00€</div>
+                        <div class="duration">10 minutes</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lavage complet</li>
+                            <li><i class="fas fa-check"></i> Séchage soigné</li>
+                            <li><i class="fas fa-check"></i> Brossage inclus</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Forfait Confort</h3>
+                        <div class="price">15,00€</div>
+                        <div class="duration">15 minutes</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lavage premium</li>
+                            <li><i class="fas fa-check"></i> Séchage et brossage</li>
+                            <li><i class="fas fa-check"></i> Soins supplémentaires</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Forfait Luxe</h3>
+                        <div class="price">20,00€</div>
+                        <div class="duration">20 minutes</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Traitement complet</li>
+                            <li><i class="fas fa-check"></i> Séchage professionnel</li>
+                            <li><i class="fas fa-check"></i> Toilettage premium</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-info">
+                <i class="fas fa-credit-card"></i>
+                <span>Modalités de paiement : au comptant</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Produits -->
+    <section id="produits" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vente de Produits & Accessoires</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Tout ce dont votre compagnon a besoin</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-pump-soap"></i>
+                    </div>
+                    <h3>Shampoings</h3>
+                    <p>Shampoings spécialisés pour tous types de pelage</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Parfums</h3>
+                    <p>Parfums délicats spécialement conçus pour les chiens</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-brush"></i>
+                    </div>
+                    <h3>Brosses</h3>
+                    <p>Brosses professionnelles pour l'entretien quotidien</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <h3>Colliers</h3>
+                    <p>Colliers confortables et élégants</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Laisses</h3>
+                    <p>Laisses résistantes pour toutes les promenades</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Jouets</h3>
+                    <p>Jouets amusants et sécurisés pour votre chien</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Horaires -->
+    <section id="horaires" class="schedule-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Horaires</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Du mardi au samedi</p>
+            </div>
+            <div class="schedule-content">
+                <div class="schedule-card">
+                    <div class="schedule-grid">
+                        <div class="day-row closed">
+                            <span class="day">Lundi</span>
+                            <span class="hours">Fermé</span>
+                        </div>
+                        <div class="day-row">
+                            <span class="day">Mardi</span>
+                            <span class="hours">9:00 - 12:00 / 14:00 - 18:00</span>
+                        </div>
+                        <div class="day-row">
+                            <span class="day">Mercredi</span>
+                            <span class="hours">9:00 - 12:00 / 14:00 - 18:00</span>
+                        </div>
+                        <div class="day-row">
+                            <span class="day">Jeudi</span>
+                            <span class="hours">9:00 - 12:00 / 14:00 - 18:00</span>
+                        </div>
+                        <div class="day-row">
+                            <span class="day">Vendredi</span>
+                            <span class="hours">9:00 - 12:00 / 14:00 - 18:00</span>
+                        </div>
+                        <div class="day-row">
+                            <span class="day">Samedi</span>
+                            <span class="hours">9:00 - 12:00 / 14:00 - 18:00</span>
+                        </div>
+                        <div class="day-row closed">
+                            <span class="day">Dimanche</span>
+                            <span class="hours">Fermé</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-nous</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Nous sommes là pour vous et votre compagnon</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>À définir selon votre localisation</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>À définir</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@bullesetpattes.fr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Bulles & Pattes Logo">
+                    <p>Toilettage automatisé pour votre compagnon</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À Propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#tarifs">Tarifs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bulles & Pattes. Tous droits réservés. | Projet scolaire</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
