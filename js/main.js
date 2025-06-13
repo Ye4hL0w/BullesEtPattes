@@ -138,7 +138,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     const originalText = counter.textContent;
                     const realTarget = parseInt(originalText.replace(/[^\d]/g, ''));
                     
-                    // Limiter l'animation à 99 max, mais garder le vrai prix pour la fin
                     const animationTarget = realTarget > 99 ? 99 : realTarget;
                     let count = 0;
                     const increment = animationTarget / 60;
@@ -149,7 +148,6 @@ document.addEventListener('DOMContentLoaded', function() {
                             counter.textContent = Math.ceil(count) + ',00€';
                             requestAnimationFrame(updateCounter);
                         } else {
-                            // Remettre le prix original (le vrai prix) à la fin
                             counter.textContent = originalText;
                         }
                     };
